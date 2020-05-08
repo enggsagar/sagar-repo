@@ -6,7 +6,7 @@ steps{
 echo 'Hello'
 }
 }
-stage('Deploy-'QA'){
+stage('Deploy-QA'){
 steps{
 echo 'Hi'
   input "Does the staging env ok?"
